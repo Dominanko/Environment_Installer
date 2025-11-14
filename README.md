@@ -1,4 +1,4 @@
-# 🌐 Environment Installer  
+# Environment Installer  
 
 Easily install popular Linux desktop environments (GNOME, KDE, XFCE, LXDE, Cinnamon, MATE) on multiple distributions using one script.  
 Supports **Ubuntu/Debian**, **Arch**, **Fedora**, **openSUSE**, and **Alpine**.  
@@ -7,7 +7,7 @@ All installs are logged to `~/de-installer.log` for troubleshooting.
 
 ---
 
-## ⚡ Quick Start  
+## Quick Start  
 
 Run directly without cloning:  
 
@@ -26,7 +26,7 @@ chmod +x Environment_Installer.sh
 
 ---
 
-## 🖥️ Usage  
+## Usage  
 
 ### Interactive Menu  
 Simply run with no arguments:  
@@ -62,7 +62,7 @@ Skip the menu and install directly:
 
 ---
 
-## ✅ Supported Distributions  
+## Supported Distributions  
 
 - **Ubuntu / Debian** (APT)  
 - **Arch Linux** (pacman)  
@@ -72,7 +72,7 @@ Skip the menu and install directly:
 
 ---
 
-## 🔄 After Installation  
+## After Installation  
 
 - Reboot your system.  
 - At login, select your new **desktop environment** from the display manager.  
@@ -81,7 +81,7 @@ Skip the menu and install directly:
 
 ---
 
-## 📋 Examples  
+## Examples  
 
 Install **XFCE** directly:  
 ```bash
@@ -95,7 +95,7 @@ Run menu installer:
 
 ---
 
-## 🛠️ Notes  
+## Notes  
 
 - All actions are logged to `~/de-installer.log`  
 - Script will detect your distro and package manager automatically  
